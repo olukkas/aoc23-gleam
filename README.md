@@ -1,24 +1,20 @@
-# aoc23
+# Advent of Code 2023 - Solutions in Gleam
+Welcome to my collection of solutions for the [Advent of Code 2023](https://adventofcode.com/2023/), implemented in Gleam! 🎄✨
 
-[![Package Version](https://img.shields.io/hexpm/v/aoc23)](https://hex.pm/packages/aoc23)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/aoc23/)
+About
+Advent of Code is an annual coding event featuring daily programming puzzles from December 1st to December 25th. These puzzles cover a wide range of topics such as algorithms, data structures, and problem-solving techniques.
 
-```sh
-gleam add aoc23@1
-```
-```gleam
-import aoc23
+This repository contains my personal solutions to the challenges, written in [Gleam](https://gleam.run/), a type-safe and functional programming language for building scalable systems.
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
+Structure
 
-Further documentation can be found at <https://hexdocs.pm/aoc23>.
+All chalenges are contained in the src folder, and the inputs files in the 'inputs' folder
 
-## Development
+How to Run
+To run any solution, you'll need to have Gleam installed on your machine. Follow the instructions on the official Gleam website to set it up.
 
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
+Once Gleam is installed, you can simply run
+
+```bash
+gleam run -m <name_of_file>
 ```

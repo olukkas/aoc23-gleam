@@ -1,20 +1,18 @@
-import simplifile
+import shared
 import gleam/int
 import gleam/io
 import gleam/list
 import gleam/string
 
 pub fn main() {
-  let assert Ok(file_path) = simplifile.current_directory()
-  let file_path = string.concat([file_path, "/inputs/input1.txt"])
-  let result = run(file_path)
+  let input = shared.read_input_file("input2.txt")
+  let result = run(input)
   io.debug(result)
 }
 
-fn run(path p: String) -> Int {
-  let assert Ok(file) = simplifile.read(from: p)
-  let input = string.split(file, "\n")
-  let digits = list.map(input, parse_line)
+fn run(input: String) -> Int {
+  let lines = string.split(input, "\n")
+  let digits = list.map(lines, parse_line)
   list.fold(digits, 0, fn(acc, curr) { acc + curr })
 }
 

@@ -18,3 +18,8 @@ Once Gleam is installed, you can simply run
 ```bash
 gleam run -m <name_of_file>
 ```
+
+Progress
+
+Day 1: ✅
+Day 2: In progress...

@@ -1,6 +1,6 @@
+import aoc23
 import gleeunit
 import gleeunit/should
-import aoc23
 
 pub fn main() {
   gleeunit.main()

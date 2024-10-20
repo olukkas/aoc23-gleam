@@ -1,8 +1,8 @@
-import shared
 import gleam/int
 import gleam/io
 import gleam/list
 import gleam/string
+import shared
 
 pub fn main() {
   let input = shared.read_input_file("input2.txt")

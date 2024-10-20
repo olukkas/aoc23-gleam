@@ -19,7 +19,7 @@ Once Gleam is installed, you can simply run
 gleam run -m <name_of_file>
 ```
 
-Progress
+Progress:
 
-Day 1: ✅
-Day 2: In progress...
+* Day 1: ✅
+* Day 2: In progress...
